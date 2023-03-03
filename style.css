@@ -86,7 +86,6 @@ body, ul, p, h1, button{
 .main{
     background-color: #F8F8F8;
 }
-
 .heading{
     display: flex;
     flex-flow: row nowrap;
@@ -151,7 +150,8 @@ body, ul, p, h1, button{
     width: inherit;
     height: auto;
 
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 .navigation::-webkit-scrollbar {
     width: 0;

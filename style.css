@@ -237,6 +237,10 @@ body, ul, p, h1, button{
 .about__expand-img{
     margin-right: 16px;
 }
+.about__picture{
+    max-width: 100%;
+    height: auto;
+}
 /************************************************************************************************/
 
 @media screen and (min-width: 1px) and (max-width: 767px){

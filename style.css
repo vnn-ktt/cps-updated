@@ -198,6 +198,9 @@ body, ul, p, h1, button{
 .navigation-list__link:hover{
     color: #7E7E82;
 }
+.navigation-list__link:focus{
+    color: #7E7E82;
+}
 .navigation-list__link:active{
     color: #7E7E82;
 }

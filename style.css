@@ -187,6 +187,21 @@ body, ul, p, h1, button{
     letter-spacing: -0.2px;
     color: #7E7E82;
     text-decoration: none;
+    transition: font-size 0.2s ease-in-out; 
+}
+.navigation-list__link:link{
+    color: #7E7E82;
+}
+.navigation-list__link:visited{
+    color: #7E7E82;
+    text-decoration: none;
+}
+.navigation-list__link:hover{
+    color: #7E7E82;
+    font-size: 18px;
+}
+.navigation-list__link:active{
+    color: #7E7E82;
 }
 .navigation-list__item:first-of-type{
     margin-left: 16px;
@@ -236,10 +251,6 @@ body, ul, p, h1, button{
 }
 .about__expand-img{
     margin-right: 16px;
-}
-.about__picture{
-    max-width: 100%;
-    height: auto;
 }
 /************************************************************************************************/
 

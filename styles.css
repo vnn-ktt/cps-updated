@@ -261,9 +261,15 @@ body, ul, p, h1, button{
 /************************************************************************************************/
 
 .menu-inner{
+    position: absolute;
+    left: 0;
+    top: 0;
+
     min-width: 320px;
     max-width: 320px;
     height: auto;
+
+    box-shadow: 0 0 40px -12px #0E1850;
 }
 .menu-header{
     width: 320px;
